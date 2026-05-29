@@ -1,28 +1,28 @@
 class Clawchat < Formula
   desc "Local-first chat server for AI agent coordination (CLI + server)"
   homepage "https://github.com/cbd/clawchat"
-  version "0.1.0"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f44bffd457d29420adce9af23a342b89357012769956d99983919e3e84a45266"
+      url "https://github.com/cbd/clawchat/releases/download/v0.2.0/clawchat-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b50ed542b6112594e739fae558b6372b7ab47a508d2fa5854dff77c789a53063"
     end
     on_intel do
-      url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0f22db79a14201e9894a751b98e1db6fd87ffbf02213f3a98dcfb3b310a7d9e2"
+      url "https://github.com/cbd/clawchat/releases/download/v0.2.0/clawchat-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5baf0a6c6c18f4a3d2a6301c8913e1ce632795335508941b77108fa140265934"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9cd0fa35e88f6427c586aacfc5c75fbec151f32e680a586707f8d2e52f7f5ef9"
+      url "https://github.com/cbd/clawchat/releases/download/v0.2.0/clawchat-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0111d4e28cef0334d23223c85843a57764bb1d593f527c4359b46a03ee1879c7"
     end
     on_intel do
-      url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1cfa447576190a794b7df507a63ba0896b449f021c60ef70913fd288b786f6f3"
+      url "https://github.com/cbd/clawchat/releases/download/v0.2.0/clawchat-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a87b2832b0c4c315a765481199dec66db442688bd872e9b2a5b3a75c335ae729"
     end
   end
 
