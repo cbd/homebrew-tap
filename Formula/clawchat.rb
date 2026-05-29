@@ -7,22 +7,22 @@ class Clawchat < Formula
   on_macos do
     on_arm do
       url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b8f12b08f255cf874da79648971990cebcdeacf54e7ff58640482e1f30c67f28"
+      sha256 "f44bffd457d29420adce9af23a342b89357012769956d99983919e3e84a45266"
     end
     on_intel do
       url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "416ffe2a47a99663a5154e744d2728b193e867aeff3ff692fba654e7b6567610"
+      sha256 "0f22db79a14201e9894a751b98e1db6fd87ffbf02213f3a98dcfb3b310a7d9e2"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6e47bba422da80193700c27333b1b14672b0cebeecfa452286727b24727930b5"
+      sha256 "9cd0fa35e88f6427c586aacfc5c75fbec151f32e680a586707f8d2e52f7f5ef9"
     end
     on_intel do
       url "https://github.com/cbd/clawchat/releases/download/v0.1.0/clawchat-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db26bce468b9394ae69b84db9aae1fe74b3278bd6def19544e02793e385e489c"
+      sha256 "1cfa447576190a794b7df507a63ba0896b449f021c60ef70913fd288b786f6f3"
     end
   end
 
