@@ -3,6 +3,9 @@ class Clawchat < Formula
   homepage "https://github.com/cbd/clawchat"
   version "0.3.1"
   license any_of: ["MIT", "Apache-2.0"]
+  deprecate! date: "2026-07-31",
+    because: "was renamed to Cowchat",
+    replacement_formula: "cowboyinc/tap/cowchat"
 
   on_macos do
     on_arm do
